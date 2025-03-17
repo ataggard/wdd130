@@ -1,15 +1,27 @@
-<h1>Block vs. Inline Elements</h1>
-<aside>Some basic styling has been applied in order to illustrate the elements structure and boundaries.</aside>
-<p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element (inline)</span></p>
-<div>A divider &lt;div&gt; element (block). <strong>2️⃣ switch me to a &lt;p&gt;to see differences if any</strong>
-    <div>Paragraph &lt;p&gt; element (block): <strong>1️⃣ change this paragraph tag to a &lt;div&gt; to see differences
-            if any</strong></div>
-</div>
-<main>
-    <h2>A main element</h2>
-    <img src="https://picsum.photos/100/200" alt="placeholder image (images are inline)" width="100" height="200">
-    <a href="https://churchofjesuschrist.org">The Church &lt;a&gt; anchor element (inline)</a>
-    <button type="button">A button element (inline)</button>
-</main>
+<!DOCTYPE html>
+<html lang="en-US">
 
-<footer>A footer element (block)</footer>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Alan Taggard | Box Model Example</title>
+    <meta name="author" content="Alan Taggard">
+    <meta name="description" content="A box model exercise">
+    <link rel="stylesheet" href="styles/test.css">
+</head>
+
+
+<main>
+    <section>
+        <h2>Float Example (float: right;)</h2>
+        <div class="col1">
+            <img src="http://dummyimage.com/100x200/333/fff/" alt="placeholder image" width="350" height="200">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil dolorum repudiandae commodi architecto
+                non! Quam sunt dolorem autem rerum culpa nam dicta cum, minima asperiores totam ea esse ut molestiae.
+                Nostrum eaexcepturi. Mollitia ex quis totam.</p>
+
+        </div>
+        <footer>©️ Footer stuff ... Lorem ipsum <br><strong>This should not be in line with the image</strong>.
+        </footer>
+    </section>
+</main>
