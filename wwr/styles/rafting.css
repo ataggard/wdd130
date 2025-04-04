@@ -91,6 +91,7 @@ p {
 .hero {
     position: relative;
     padding-top: 20px;
+    opacity: .3;
 }
 
 .hero-image {
