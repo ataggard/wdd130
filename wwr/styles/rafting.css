@@ -8,6 +8,7 @@
 }
 main {
     max-width: 1800px;
+    background-color: var(--accent1-color); 
 }
 header {
 	/* margin: 1rem auto; */
@@ -83,8 +84,8 @@ p {
 }
 
 .div img {
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
     object-fit: cover;
 }
 
@@ -98,6 +99,10 @@ p {
     padding: 30px;
     position: relative;
     left: 0%;
+}
+.employee-img {
+    padding:50px;
+    margin:50px;
 }
 
 .header-image {
@@ -116,15 +121,22 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     column-span:all;
-    
 }
-
+.grid-container-emp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-span:all;
+    margin-left:80px;
+}
 h2 {
     color: #1B264F;
     text-align: center;
     font-size: 3rem;
     font-family: "Mulish";
     font-style: normal;
+}
+.myfigcation {
+    color:white";
 }
 
 footer {
@@ -140,6 +152,60 @@ footer {
     margin-bottom: 150px;
     color: #1B264F;
     text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #cdee96;
+    display: grid;
+}
+.form-item {
+    margin:0
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: rgb(0, 0, 10);
+    font-size: 1.3em;
+}
+  label, input, button, select, textarea {
+    font-family: Mulish;
+}
+label {
+    text-align: right;
+    padding-right: 2rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: .5rem;
+    margin-left: 180px;
+    width: 250px;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: rgb(12, 164, 12);
 }
 footer p {
     font-size: 14px;
